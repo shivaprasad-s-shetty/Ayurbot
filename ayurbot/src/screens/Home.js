@@ -1,10 +1,14 @@
 import React from "react";
 import "./Home.css";
+import Navbar from "../components/Navbar";
+
 
 
 function Home() {
   return (
     <div className="App">
+      <Navbar/>
+
       <header className="header">
       <img src="/images/logo.png" alt="Company Logo" className="logo" />
 

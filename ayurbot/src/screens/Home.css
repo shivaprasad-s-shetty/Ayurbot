@@ -6,12 +6,7 @@
     height: 100vh;
   }
   
-  .header {
-    background-color:#FCFCFC;
-    color:black;
-    padding: 20px;
-  }
-  
+
   .content {
     display: flex;
     flex: 1;
