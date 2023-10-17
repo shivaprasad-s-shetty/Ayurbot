@@ -1,15 +1,12 @@
 import React from "react";
 import "./Home.css";
+import Navbar from "../components/Navbar";
 
 
 function Home() {
   return (
     <div className="App">
-      <header className="header">
-      <img src="/images/logo.png" alt="Company Logo" className="logo" />
-
-
-      </header>
+      <Navbar/>
       <div className="content">
         <div className="left-content">
           <h1>For Doctors</h1>
